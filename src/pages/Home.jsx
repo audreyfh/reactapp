@@ -5,7 +5,6 @@ import Footer from '../components/Footer';
 function Home() {
   return (
     <>
-    <Header />
       <section className="columns">
         <Tree 
           name="Live Oak"
@@ -16,7 +15,6 @@ function Home() {
           description="Flowers in spring"
           image="images/dogwood.jpg"/>
       </section>
-      <Footer />
     </>
   );
 };
